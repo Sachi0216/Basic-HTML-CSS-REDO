@@ -3,15 +3,16 @@
 	<head>
 		<title> Nike World </title>
 		<meta charset="utf-8">
+		<link rel="stylesheet" href="CSS/one_page_website.css">
 	</head>
 	<body>
 	
 	
 	<!-- NAV -->
-	<div>
-			<div>
-				<ul>
-					<a href="#home" id="link"><li>HOME</li></a>
+	<div class="wrap">
+			<div class="menu-container">
+				<ul class="menu">
+					<a href="#home"><li>HOME</li></a>
 					<a href="#gallery"><li>GALLERY</li></a>
 					<a href="#contact"><li>Contact</li></a>
 				</ul>
@@ -21,27 +22,29 @@
 		
 		<!-- HOME -->
 		<div id="home">
-			<div>
+			<div class="container">
 				<iframe width="560" height="315" src="https://www.youtube.com/embed/WA4dDs0T7sM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				<div>
-					<span>NIKE Off-Season</span>
+				<div class="text-center">
+					<span class="head-main">NIKE Off-Season</span>
 				</div>
 			</div>
 		</div>
 		<!--END HOME -->
 		
 		<!-- GALLERY -->
-		<section>
-			<div id="gallery">
+		<section id="gallery"
+			<div class="container">
 				<h1>GALLERY</h1>
-				<div>
+				<div class="flex-container">
+				
+			
 				
 					<!-- PHOTO-CONTAINER 1 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_1.jpg" alt="Training">
-							<div>
-								<h1>Click to Enlarge</h1>
+							<div class="photo-overlay">
+								<h2>Click to Enlarge</h2>
 								<p>BARE WITNESS.. </p>
 							</div>
 						</div>
@@ -49,10 +52,10 @@
 					<!-- END PHOTO-CONTAINER 1 -->
 					
 										<!-- PHOTO-CONTAINER 2 -->
-					<div>
-						<div>
+					<div class="photo-container">
+						<div class="photo">
 							<img src="./images/thumb/thumbnail_2.jpg" alt="Outside Gym">
-							<div>
+							<div class="photo-overlay">
 								<h1>Click to Enlarge</h1>
 								<p>Just DO IT. </p>
 							</div>
@@ -62,25 +65,29 @@
 					<!-- END PHOTO-CONTAINER 2 -->
 					
 					<!-- RSVP -->
-		<section>
-			<div id="contact">
-				<h1> Contact </h1>
-				<p>
+		<section id="contact">
+			<div class="container">
+				<div class="heading-padding">
+					<h1 class="heading-padding">Contact</h1>
+				<p class="rsvp-text">
 					Please provide us with your basic contact information.
 				</p>
+				<div class="form-rsvp">
 					<form action="" method="post">
 						<input class="rsvp" type="text" value="First Name">
 						<input class="rsvp" type="text" value="Last Name">
 						<input class="rsvp" type="text" value="Email Address">
 						<input class="rsvp" type="text" value="Phone number">
 						<div class="form-spacer">
-							<label class="Terms and conditions</label>
+							<label class="terms"></label>Terms and Conditions</label>
 						</div>
-						<div>
+						<div class="submit">
 							<input type="submmit" value="submit">
 						</div>
 					</form>
-			</div>
+					</div>
+					</div>
+				</div>
 		</section>
 <!-- END RSVP -->
 <!-- FOOTER -->
