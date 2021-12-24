@@ -1,3 +1,4 @@
+   
 body  {
     background-color:#fff;
 }
@@ -19,7 +20,7 @@ h1 {
 
 
  .container .squares:nth-child(-n+4) {
-     background-image: url(../images/icon/smileyface2.jpg);
+     background-image: url(../images/icons/icons2.jpeg);
      color: #fff;
      float: left;
      width: 100px;
@@ -58,7 +59,7 @@ h1 {
 
 
 .container .squares:nth-child(-n+4):hover {
-    background-image: url(../images/icon/smileyface1.jpg);
+    background-image: url(../images/icons/icon1.jpeg);
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
@@ -94,7 +95,7 @@ h1 {
 @keyframes race {
     0%, 100% {
         transform: translateY(0px);
-        background-image: url(../images/icon/smileyface1.jpg);
+        background-image: url(../images/icons/icon1.jpeg);
     }
     50% {
         transform: translateY(330px);
