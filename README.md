@@ -2,8 +2,9 @@
  new file structure
 This is a display of the websites I created with basic HTML and CSS
 
-PROJECTS:
+Projects:
 	The Space Station
+	
 	Movie Theatre Site | Bootstrap
 	
 The Space Station:
